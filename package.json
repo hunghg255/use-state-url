@@ -1,0 +1,48 @@
+{
+  "name": "use-state-url",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "A hook that stores the state into url query parameters.",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "import": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hunghg255/use-state-url.git"
+  },
+  "scripts": {
+    "build": "unbuild"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hunghg255/use-state-url/issues"
+  },
+  "homepage": "https://github.com/hunghg255/use-state-url",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-router": "^5.0.0 || ^6.0.0"
+  },
+  "dependencies": {
+    "ahooks": "^3.4.1",
+    "query-string": "^8.1.0"
+  },
+  "packageManager": "pnpm@8.15.9+sha512.499434c9d8fdd1a2794ebf4552b3b25c0a633abcee5bb15e7b5de90f32f47b513aca98cd5cfd001c31f0db454bc3804edccd578501e4ca293a6816166bbd9f81",
+  "devDependencies": {
+    "@types/react": "^18.3.9",
+    "unbuild": "^2.0.0"
+  }
+}
