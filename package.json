@@ -1,6 +1,6 @@
 {
   "name": "use-state-url",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "A hook that stores the state into url query parameters.",
   "main": "./dist/index.mjs",
